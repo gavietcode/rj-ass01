@@ -1,0 +1,31 @@
+/* Css for Navbar */
+.navbar {
+  height: 50px;
+  background-color: #003580;
+  display: flex;
+  justify-content: center;
+}
+
+/* Set Atribute Navbar Container */
+.navContainer {
+  width: 100%;
+  max-width: 1024px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* Set Atribute Logo*/
+.logo {
+  font-weight: 500;
+}
+
+/* Set Atribute Navbar Button */
+.navButton {
+  margin-left: 20px;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  color: #003580;
+}

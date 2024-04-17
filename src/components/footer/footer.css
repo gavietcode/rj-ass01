@@ -1,0 +1,27 @@
+/* Css for Footer */
+.footer {
+  width: 100%;
+  width: 1024px;
+  font-size: 12px;
+}
+
+/* Set Atribute for  Footer Lists*/
+.fLists {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+
+/* Set Atribute for  Footer List*/
+.fList {
+  list-style: none;
+  padding: 0;
+}
+
+/* Set Atribute for  Footer List Item*/
+.fListItem {
+  margin-bottom: 10px;
+  color: #003580;
+  cursor: pointer;
+}

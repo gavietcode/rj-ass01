@@ -1,0 +1,147 @@
+/* Css for Header */
+.header {
+  background-color: #003580;
+  color: white;
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+/* Set Atribute for Header Container */
+.headerContainer {
+  width: 100%;
+  max-width: 1024px;
+  margin: 20px 0px 100px 0px;
+}
+
+/* Set Atribute for Header Container List Mode*/
+.headerContainer.listMode {
+  margin: 20px 0px 0px 0px;
+}
+
+/* Set Atribute for Header List */
+.headerList {
+  display: flex;
+  gap: 40px;
+  margin-bottom: 50px;
+}
+
+/* Set Atribute for Header List Item */
+.headerListItem {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+/* Set Atribute for Header List Item Active*/
+.headerListItem.active {
+  border: 1px solid white;
+  padding: 10px;
+  border-radius: 20px;
+}
+
+/* Set Atribute for Header Description */
+.headerDesc {
+  margin: 20px 0px;
+}
+
+/* Set Atribute for Header Button */
+.headerBtn {
+  background-color: #0071c2;
+  color: white;
+  font-weight: 500;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+}
+
+/* Set Atribute for Header Search */
+.headerSearch {
+  height: 30px;
+  background-color: white;
+  border: 3px solid #febb02;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 10px 0px;
+  border-radius: 5px;
+  position: absolute;
+  bottom: -25px;
+  width: 100%;
+  max-width: 1024px;
+}
+
+/* Set Atribute for Header Icon */
+.headerIcon {
+  color: lightgray;
+}
+
+/* Set Atribute for Header Search Item */
+.headerSearchItem {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+/* Set Atribute for Header Search  Input */
+.headerSearchInput {
+  border: none;
+  outline: none;
+}
+
+/* Set Atribute for Header Search Text */
+.headerSearchText {
+  color: lightgray;
+  cursor: pointer;
+}
+
+/* Set Atribute for Date*/
+.date {
+  position: absolute;
+  top: 50px;
+  z-index: 2;
+}
+
+/* Set Atribute for Options */
+.options {
+  z-index: 2;
+  position: absolute;
+  top: 50px;
+  background-color: white;
+  color: gray;
+  border-radius: 5px;
+  -webkit-box-shadow: 0px 0px 10px -5px rgba(0, 0, 0, 0.4);
+  box-shadow: 0px 0px 10px -5px rgba(0, 0, 0, 0.4);
+}
+
+/* Set Atribute for Options Item*/
+.optionItem {
+  width: 200px;
+  display: flex;
+  justify-content: space-between;
+  margin: 10px;
+}
+
+/* Set Atribute for Options  Counter*/
+.optionCounter {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 12px;
+  color: black;
+}
+
+/* Set Atribute for Options  Counter Button*/
+.optionCounterButton {
+  width: 30px;
+  height: 30px;
+  border: 1px solid #0071c2;
+  color: #0071c2;
+  cursor: pointer;
+  background-color: white;
+}
+
+/* Set Atribute for Options  Counter Disabled*/
+.optionCounterButton:disabled {
+  cursor: not-allowed;
+}

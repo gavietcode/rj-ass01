@@ -1,0 +1,55 @@
+/* Css for Featured Properties */
+.fp {
+  width: 100%;
+  max-width: 1024px;
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+/* Set Atribute for Item */
+.fpItem {
+  flex: 1;
+  gap: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Set Atribute for IMG */
+.fpImg {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+  cursor: pointer;
+}
+
+/* Set Atribute for Name */
+.fpName {
+  color: #333;
+  font-weight: bold;
+}
+
+/* Set Atribute for City */
+.fpCity {
+  font-weight: 300;
+}
+
+/* Set Atribute for Price */
+.fpPrice {
+  font-weight: 500;
+}
+
+/* Set Atribute for Button */
+.fpRating > button {
+  background-color: #003580;
+  color: white;
+  border: none;
+  padding: 3px;
+  margin-right: 10px;
+  font-weight: bold;
+}
+
+/* Set Atribute for Span */
+.fpRating > span {
+  font-size: 14px;
+}
