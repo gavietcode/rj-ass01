@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/rj-ass01.git/static/css/main.1edf2e15.css",
-    "main.js": "/rj-ass01.git/static/js/main.5269cc82.js",
-    "index.html": "/rj-ass01.git/index.html",
-    "main.1edf2e15.css.map": "/rj-ass01.git/static/css/main.1edf2e15.css.map",
-    "main.5269cc82.js.map": "/rj-ass01.git/static/js/main.5269cc82.js.map"
+    "main.css": "/rj-ass01/static/css/main.1edf2e15.css",
+    "main.js": "/rj-ass01/static/js/main.5269cc82.js",
+    "index.html": "/rj-ass01/index.html",
+    "main.1edf2e15.css.map": "/rj-ass01/static/css/main.1edf2e15.css.map",
+    "main.5269cc82.js.map": "/rj-ass01/static/js/main.5269cc82.js.map"
   },
   "entrypoints": [
     "static/css/main.1edf2e15.css",
